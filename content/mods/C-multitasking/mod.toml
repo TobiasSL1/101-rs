@@ -13,7 +13,7 @@ topics = [
     "topics/rayon/topic.toml",
     "topics/multithreading/topic.toml",
     "topics/synchronization/topic.toml",
-    "topics/ordering/topic.toml",
+    #"topics/ordering/topic.toml",
     "topics/send-sync/topic.toml",
     "topics/channels/topic.toml",
 ]
@@ -25,5 +25,5 @@ topics = [
     "topics/future/topic.toml",
     "topics/async-await/topic.toml",
     "topics/async-rt/topic.toml",
-    "topics/futures-rs/topic.toml",
+    #"topics/futures-rs/topic.toml",
 ]

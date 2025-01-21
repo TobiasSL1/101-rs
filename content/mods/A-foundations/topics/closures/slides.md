@@ -35,8 +35,3 @@ fn bar() -> i64 {
 let evens: Vec<_> = some_iterator.filter(|x| x % 2 == 0).collect();
 ```
 
----
-
-# To do
-
-Issue: [tweedegolf/teach-rs#66](https://github.com/tweedegolf/teach-rs/issues/66)

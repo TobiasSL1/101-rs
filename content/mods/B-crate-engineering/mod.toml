@@ -7,6 +7,6 @@ topics = [
     "topics/api-guidelines/topic.toml",
     "topics/design-patterns/topic.toml",
     "topics/testing/topic.toml",
-    "topics/tools/topic.toml",
-    "topics/macros/topic.toml",
+    #"topics/tools/topic.toml",
+    #"topics/macros/topic.toml",
 ]
