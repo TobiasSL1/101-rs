@@ -1,5 +1,4 @@
-#cargo run -- generate -o target/oopcourse -c ../content/full.track.toml --theme @mandel/slidev-theme-sandbee
-cargo run -- generate -o target/oopcourse ../content/full.track.toml --theme @mandel/slidev-theme-sandbee
+cargo run -- generate -o target/oopcourse -c ../content/full.track.toml --theme @mandel/slidev-theme-sandbee
 cp ../oop/layouts target/oopcourse/slides -r
 cp ../oop/.npmrc target/oopcourse/slides
 
