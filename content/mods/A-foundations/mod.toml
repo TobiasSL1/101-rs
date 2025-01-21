@@ -25,7 +25,7 @@ topics = [
     "topics/vec/topic.toml",
     "topics/slices/topic.toml",
     "topics/smart-pointers/topic.toml",
-    "topics/interior-mutability/topic.toml",
+    #"topics/interior-mutability/topic.toml",
 ]
 
 [[units]]
@@ -41,10 +41,4 @@ name = "Closures and Dynamic dispatch"
 topics = [
     "topics/closures/topic.toml",
     "topics/trait-objects/topic.toml",
-]
-
-[[units]]
-name = "Interior mutability"
-topics = [
-    "topics/interior-mutability/topic.toml",
 ]

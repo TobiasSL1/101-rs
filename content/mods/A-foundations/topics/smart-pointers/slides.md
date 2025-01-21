@@ -64,9 +64,3 @@ struct Node {
   sized dynamically, but even so, a vector can be large, whereas an array will
   generally always have a limited size
 -->
-
----
-
-# To Do
-
-Issue: [tweedegolf/teach-rs#68](https://github.com/tweedegolf/teach-rs/issues/68)
