@@ -1,8 +1,8 @@
-cargo run -- generate -o target/oopcourse -c ../content/full.track.toml --theme @mandel/slidev-theme-sandbee
-cp ../oop/layouts target/oopcourse/slides -r
-cp ../oop/.npmrc target/oopcourse/slides
+cargo run -- generate -o target/course -c ../content/full.track.toml --theme @mandel/slidev-theme-sandbee
+cp ../oop/layouts target/course/slides -r
+cp ../oop/.npmrc target/course/slides
 
-pushd target/oopcourse/slides
+pushd target/course/slides
 npm add @mandel/slidev-theme-sandbee@1.5.3
 npm install
 sed -i 's/slidev export/slidev export --with-clicks/g' package.json
