@@ -5,6 +5,7 @@ description = "Introdution of the Rust Programming course and setup instructions
 name = "Introduction"
 template = "intro.md"
 topics = [
+    "topics/who/topic.toml",
     "topics/setup/topic.toml",
     "topics/why-rust/topic.toml",
 ]
